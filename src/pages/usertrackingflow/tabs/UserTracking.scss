@@ -1,0 +1,94 @@
+.findButton{
+  margin-left: 10px;
+  height: 36px;
+}
+form{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.sua-container{
+  background-color: #bdbcbc;
+  color: #485465;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  > div{
+    width: 98%;
+  }
+}
+
+.access-subtable{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b2b38a;
+  color: #485465;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  > div{
+    width: 98%;
+  }
+}
+
+.external-orders-subtable{
+  background-color: #70b4038a;
+  color: #485465;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  > div{
+    width: 98%;
+  }
+}
+
+.orders-subtable{
+  background-color: #0000ff25;
+  color: #485465;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  > div{
+    width: 98%;
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.loaderIcon{
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #F53855; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.noResults{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

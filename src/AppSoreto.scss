@@ -1,0 +1,13 @@
+@media screen and (max-width: 959px) {
+  .crud-demo .p-datatable.datatable-responsive .p-datatable-tbody > tr > td:nth-last-child(1) > .p-column-title{
+    display: none
+  }
+
+  .crud-demo .p-datatable.datatable-responsive .p-datatable-tbody > tr > td:first-child > .p-column-title{
+    display: none
+  }
+
+ .p-datatable-tbody > tr > td {
+    justify-content:flex-start !important;
+  }
+}

@@ -1,0 +1,18 @@
+.progress-bar-normal .p-progressbar-value {
+background-color: #3350b9 !important; /* Fill color */
+}
+
+.progress-bar-normal {
+background-color: #c0c8e9; /* Background color for the empty part */
+}
+
+.progress-bar-failed .p-progressbar-value {
+background-color: red !important; /* Fill color for FAILED status */
+}
+
+.progress-bar-failed {
+background-color: red; /* Background color for FAILED status */
+}
+.p-progressbar{
+    height: 8px;
+}

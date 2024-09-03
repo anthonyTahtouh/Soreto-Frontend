@@ -1,0 +1,15 @@
+$primaryColor:#F53855;
+$primaryLightestColor: #E8EAF6;
+$primaryMenuTextColor: $primaryColor;
+$primaryTextColor:#ffffff;
+$accentColor:#334D5C;
+$accentTextColor:#ffffff;
+
+:root {
+    --cyan-400:#00bcd4;
+    --orange-400:#f79530;
+    --orange-300:#f9ae61;
+    --orange-200:#fbc791;
+}
+
+@import '../../sass/theme/theme_light';

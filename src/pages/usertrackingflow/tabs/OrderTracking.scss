@@ -1,0 +1,38 @@
+.external{
+  background-color: #bdbcbc;
+  color: #485465;
+  padding: 10px;
+}
+
+
+.internal{
+    background-color: #b2b38a;
+    color: #485465;
+    padding: 10px;
+}
+
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.loaderIcon{
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #F53855; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+
+}
+
+.noResults{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
